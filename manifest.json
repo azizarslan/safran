@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Safran",
-  "version": "0.1",
-  "description": "Google Chrome için Safran.io haber okuyucusu. En son gönderilen 10 linki gösterir.",
+  "version": "0.2",
+  "description": "Google Chrome için Safran.io haber okuyucusu. Son paylaşımları gösterir.",
   "browser_action": {
     "default_title": "Safran",
     "default_popup": "safran.html",
