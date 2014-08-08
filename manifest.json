@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Safran",
+  "version": "0.1",
+  "description": "Google Chrome için Safran.io haber okuyucusu. En son gönderilen 10 linki gösterir.",
+  "browser_action": {
+    "default_title": "Safran",
+    "default_popup": "safran.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "16": "icon-16.png",
+    "48" : "icon-48.png",
+    "128" : "icon-128.png"
+  },
+  "permissions": [
+    "tabs",
+    "http://safran.io/*"
+  ]
+}

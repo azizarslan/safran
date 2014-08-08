@@ -1,0 +1,45 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font: 13px Arial;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.results {
+  width: 300px;
+  padding: 0 10px 10px;
+}
+
+.results li {
+  margin-top: 5px;
+}
+
+.results li:first-child {
+  margin-top: 0;
+}
+
+.results a {
+  display: block;
+  padding: 10px;
+  background-color: #f9f9f9;
+  color: #333;
+  text-decoration: none;
+}
+
+.results a:hover {
+  background-color: #ffc000;
+  color: #fff;
+}
